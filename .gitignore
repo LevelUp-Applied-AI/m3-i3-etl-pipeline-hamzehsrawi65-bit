@@ -1,14 +1,15 @@
-# Secrets
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
 .env
 *.key
 *.pem
 
-# Data files
 *.csv
 *.parquet
 *.xlsx
 data/raw/
 
-# OS files
 .DS_Store
 Thumbs.db
