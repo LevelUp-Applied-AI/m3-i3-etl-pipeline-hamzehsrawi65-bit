@@ -1,6 +1,14 @@
-__pycache__/
-*.pyc
+# Secrets
 .env
-.venv/
-output/
-*.egg-info/
+*.key
+*.pem
+
+# Data files
+*.csv
+*.parquet
+*.xlsx
+data/raw/
+
+# OS files
+.DS_Store
+Thumbs.db
